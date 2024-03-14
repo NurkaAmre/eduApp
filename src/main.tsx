@@ -35,21 +35,6 @@ const router = createBrowserRouter([
     element: <MeetTheTeacher />,
     children: [],
   },
-  // {
-  //   path: '/student-of-the-week',
-  //   element: <div>Student of the Week</div>,
-  //   children: [],
-  // },
-  // {
-  //   path: '/classroom-policies',
-  //   element: <div>Classroom Policies</div>,
-  //   children: [],
-  // },
-  // {
-  //   path: '/class-resources',
-  //   element: <div>Class Resources</div>,
-  //   children: [],
-  // },
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <>

@@ -25,17 +25,19 @@ const TodaysAgendaPage: React.FC = () => {
   }, []);
 
   return (
-    <section className="md:mt-[5rem] md:mx-[10rem]">
-      <h1 className="md:text-4xl text:3xl font-bold mb-6">Today's Agenda</h1>
-      <div className="grid grid-cols-2 gap-4">
+    <section className="md:mt-[5rem] md:mx-[10rem] px-6 py-4">
+      <h1 className="md:text-4xl text:3xl font-bold m-6">Today's Agenda</h1>
+      <div className="grid md:grid-cols-2 md:gap-4 gap-2">
         {agendaItems.map((agendaItem) => (
           <div
             key={agendaItem.id}
-            className="border border-gray-200 bg-[#FF8652] shadow-lg bg-paper p-4 rounded-lg"
+            className="border border-gray-200 bg-[#FF8652] shadow-lg p-4 rounded-lg"
           >
             <div className="flex justify-between">
-              <h2 className="text-xl font-semibold mb-2">{agendaItem.title}</h2>
-              <p className="mt-2">{agendaItem.time}</p>
+              <h2 className="md:text-xl font-semibold mb-2">
+                {agendaItem.title}
+              </h2>
+              <p className=" text-gray-950">{agendaItem.time}</p>
             </div>
             <p className="">{agendaItem.description}</p>
           </div>

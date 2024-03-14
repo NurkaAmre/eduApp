@@ -5,9 +5,9 @@ import teacher from '../../public/assets/teacher2.jpg';
 
 const MeetTheTeacher: React.FC = () => {
   return (
-    <section className="md:mt-14 px-28 mt-6 flex flex-col ">
+    <section className="md:mt-14 md:px-28 mt-4 flex flex-col ">
       <div className="md:flex flex-col justify-center">
-        <div className="flex justify-center gap-10 items-center">
+        <div className="flex md:flex-row flex-col justify-center md:gap-10 items-center">
           <div className="my-6">
             <p className="text-6xl text-[#243b66] font-bold">Meet Your</p>
             <div className="bg-[#c68df9] rounded-md w-fit">
@@ -32,7 +32,7 @@ const MeetTheTeacher: React.FC = () => {
           </div>
         </div>
         <div className=" mb-10 flex flex-col justify-center">
-          <p className="py-2">
+          <p className="py-2 px-6 md:mt-4">
             Mathematics is the language of patterns, shapes, and numbers that
             surrounds us every day. As a math teacher, my goal is to demystify
             this language and empower students to understand and appreciate the
@@ -43,18 +43,16 @@ const MeetTheTeacher: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className="md:flex justify-evenly gap-10 bg-[#7284FF] w-full py-6 px-10">
-        <div className="flex gap-4 text-2xl text-white">
-          <Link to="/meet-the-teacher">
-            <FaGithub className="cursor-pointer" />
-          </Link>
-          <Link to="/meet-the-teacher">
-            <FaLinkedin className="cursor-pointer" />
-          </Link>
-          <Link to="/meet-the-teacher">
-            <IoMdClipboard className="cursor-pointer" />
-          </Link>
-        </div>
+      <div className="flex justify-evenly md:justify-around bg-[#7284FF] w-full py-6 px-10">
+        <Link to="/meet-the-teacher">
+          <FaGithub className="cursor-pointer" />
+        </Link>
+        <Link to="/meet-the-teacher">
+          <FaLinkedin className="cursor-pointer" />
+        </Link>
+        <Link to="/meet-the-teacher">
+          <IoMdClipboard className="cursor-pointer" />
+        </Link>
       </div>
     </section>
   );

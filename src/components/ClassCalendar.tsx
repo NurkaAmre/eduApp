@@ -26,19 +26,18 @@ const ClassCalendar: React.FC = () => {
     fetchCalendarData();
   }, []);
 
-  // Get all unique times across all events
   const allTimes = calendarData.flatMap((day) =>
     day.events.map((event) => event.time)
   );
   const uniqueTimes = [...new Set(allTimes)];
 
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold mb-6">Class Calendar</h1>
+    <div className="md:p-10 p-2 flex flex-col justify-center">
+      <h1 className="text-3xl font-bold m-6">Class Calendar</h1>
       <table className="table-auto border-collapse border border-white">
         <thead>
           <tr>
-            <th className="px-4 py-2 "></th>
+            <th className="px-3 py-2 "></th>
             {calendarData.map((day) => (
               <th
                 key={day.day}
