@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Mathematics Class",
+    "description": "Solve exercises from chapter 3",
+    "time": "9:00 AM - 10:30 AM"
+  },
+  {
+    "id": 2,
+    "title": "Science Experiment",
+    "description": "Conduct experiment on chemical reactions",
+    "time": "11:00 AM - 12:00 PM"
+  },
+  {
+    "id": 3,
+    "title": "Literature Discussion",
+    "description": "Analyze the themes of the novel",
+    "time": "1:00 PM - 2:30 PM"
+  },
+  {
+    "id": 4,
+    "title": "History Lecture",
+    "description": "Discuss the causes of World War II",
+    "time": "3:00 PM - 4:30 PM"
+  },
+  {
+    "id": 5,
+    "title": "Art Class",
+    "description": "Learn to draw a portrait",
+    "time": "5:00 PM - 6:00 PM"
+  }
+]

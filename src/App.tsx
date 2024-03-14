@@ -1,9 +1,11 @@
-import './App.css';
+import Header from './components/Header';
+import MainPage from './components/MainPage';
 
 const App: React.FC = () => {
   return (
     <div>
-      <h1 className="text-green-500">Hello, EDUAPP!</h1>
+      <Header />
+      <MainPage />
     </div>
   );
 };

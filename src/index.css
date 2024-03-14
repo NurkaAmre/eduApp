@@ -10,3 +10,11 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #8FC2FF;
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  height: 100vh;
+  
+}
