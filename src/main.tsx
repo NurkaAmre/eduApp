@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import TodaysAgendaPage from './components/TodaysAgenda.tsx';
 import ClassCalendar from './components/ClassCalendar.tsx';
+import ClassNews from './components/ClassNews.tsx';
 
 const router = createBrowserRouter([
   {
@@ -23,11 +24,11 @@ const router = createBrowserRouter([
     element: <ClassCalendar />,
     children: [],
   },
-  // {
-  //   path: '/class-news',
-  //   element: <div>Class News</div>,
-  //   children: [],
-  // },
+  {
+    path: '/class-news',
+    element: <ClassNews />,
+    children: [],
+  },
   // {
   //   path: '/meet-the-teacher',
   //   element: <div>Meet the Teacher</div>,
