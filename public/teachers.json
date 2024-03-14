@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "photoUrl": "/assets/teacher1.png",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "photoUrl": "/assets/teacher2.jpg",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "email": "jane.smith@example.com",
+    "phone": "987-654-3210"
+  }
+]

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import TodaysAgendaPage from './components/TodaysAgenda.tsx';
 import ClassCalendar from './components/ClassCalendar.tsx';
 import ClassNews from './components/ClassNews.tsx';
+import MeetTheTeacher from './components/MeetTheTeacher.tsx';
 
 const router = createBrowserRouter([
   {
@@ -29,11 +30,11 @@ const router = createBrowserRouter([
     element: <ClassNews />,
     children: [],
   },
-  // {
-  //   path: '/meet-the-teacher',
-  //   element: <div>Meet the Teacher</div>,
-  //   children: [],
-  // },
+  {
+    path: '/meet-the-teacher',
+    element: <MeetTheTeacher />,
+    children: [],
+  },
   // {
   //   path: '/student-of-the-week',
   //   element: <div>Student of the Week</div>,
