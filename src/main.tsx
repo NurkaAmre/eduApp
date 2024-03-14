@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import TodaysAgendaPage from './components/TodaysAgenda.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
   {},
   {
     path: '/todays-agenda',
-    element: <div>Today's Agenda</div>,
+    element: <TodaysAgendaPage />,
     children: [],
   },
   // {
