@@ -1,10 +1,21 @@
-import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import MainPage from './components/MainPage';
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <MainPage />,
+    children: [],
+  },
+]);
 const App: React.FC = () => {
   return (
-    <div>
-      <h1 className="text-green-500">Hello, EDUAPP!</h1>
-    </div>
+    <>
+      <div className="flex">
+        {/* <Sidebar /> */}
+        <RouterProvider router={router} />
+      </div>
+    </>
   );
 };
 
