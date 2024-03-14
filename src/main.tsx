@@ -11,11 +11,11 @@ const router = createBrowserRouter([
     children: [],
   },
   {},
-  // {
-  //   path: '/todays-agenda',
-  //   element: <div>Today's Agenda</div>,
-  //   children: [],
-  // },
+  {
+    path: '/todays-agenda',
+    element: <div>Today's Agenda</div>,
+    children: [],
+  },
   // {
   //   path: '/class-calendar',
   //   element: <div>Class Calendar</div>,
