@@ -15,7 +15,7 @@ const Header = () => {
       <Link to="/" className="mr-4">
         <img src={logo} alt="Logo" className="h-20 w-20" />
       </Link>
-      <p className="mb-4">Today is {formattedDate}.</p>
+      <p className="mb-4">{formattedDate}.</p>
     </div>
   );
 };
