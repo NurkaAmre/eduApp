@@ -15,9 +15,6 @@ body {
   color: #fff;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  justify-content: center;
-  align-items: center;
-  display: flex;
   height: 100vh;
-  width: 100vw;
+  
 }
