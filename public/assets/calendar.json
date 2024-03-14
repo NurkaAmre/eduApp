@@ -1,0 +1,37 @@
+[
+  {
+    "day": "Monday",
+    "events": [
+      { "time": "09:00 AM", "subject": "Math" },
+      { "time": "11:00 AM", "subject": "Science" }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "events": [
+      { "time": "10:00 AM", "subject": "English" },
+      { "time": "12:00 PM", "subject": "History" }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "events": [
+      { "time": "09:30 AM", "subject": "Art" },
+      { "time": "11:30 AM", "subject": "Physical Education" }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "events": [
+      { "time": "10:30 AM", "subject": "Geography" },
+      { "time": "12:30 PM", "subject": "Music" }
+    ]
+  },
+  {
+    "day": "Friday",
+    "events": [
+      { "time": "09:00 AM", "subject": "Computer Science" },
+      { "time": "11:00 AM", "subject": "Social Studies" }
+    ]
+  }
+]
