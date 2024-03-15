@@ -24,7 +24,7 @@ Class News is a simple React application for managing news articles. It allows u
 
 ```bash
 git clone git@github.com:NurkaAmre/eduApp.git
-
+```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://frontend-libba.onrender.com)
