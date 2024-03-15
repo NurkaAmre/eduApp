@@ -28,7 +28,7 @@ git clone git@github.com:NurkaAmre/eduApp.git
 ```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://frontend-libba.onrender.com)
+- [Live Demo Link](https://dev--fancy-gingersnap-e81685.netlify.app/)
 ***
 
 ## 👥 Author <a name="authors"></a>
