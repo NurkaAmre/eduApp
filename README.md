@@ -17,6 +17,7 @@ Class News is a simple React application for managing news articles. It allows u
 - uuid: A library for generating unique identifiers.
 - HTML: The standard markup language for creating web pages.
 - CSS: A style sheet language used for describing the presentation of a document written in HTML.
+- API 
 
 ## Getting Started
 
